@@ -11,7 +11,7 @@
   <ion-row>
     <ion-col size="12">
 
-      <ion-segment value="default">
+      <ion-segment value="brasil" (ionChange)="selecionarCard($event)">
         <ion-segment-button value="brasil">
           <ion-label>Brasil</ion-label>
         </ion-segment-button>
@@ -41,7 +41,7 @@
   </ion-row>
 
   <!-- slides do brasil -->
-  <ion-row>
+  <ion-row *ngIf="this.item_selecionado == 'brasil'">
     <ion-col size="4">
      <ion-card>
        <img src="https://images.pexels.com/photos/2868240/pexels-photo-2868240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
@@ -60,7 +60,7 @@
   </ion-row>
 
    <!-- slides do china -->
-   <ion-row>
+   <ion-row *ngIf="this.item_selecionado == 'china'">
     <ion-col size="4">
      <ion-card>
        <img src="https://images.pexels.com/photos/2412603/pexels-photo-2412603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
@@ -79,7 +79,7 @@
   </ion-row>
 
    <!-- slides do india -->
-   <ion-row>
+   <ion-row *ngIf="this.item_selecionado == 'india'">
     <ion-col size="4">
      <ion-card>
        <img src="https://images.pexels.com/photos/2413613/pexels-photo-2413613.jpeg?auto=compress&cs=tinysrgb&w=1600">
@@ -98,7 +98,7 @@
   </ion-row>
 
    <!-- slides do mexico -->
-   <ion-row>
+   <ion-row *ngIf="this.item_selecionado == 'mexico'">
     <ion-col size="4">
      <ion-card>
        <img src="https://images.pexels.com/photos/3290068/pexels-photo-3290068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
@@ -117,7 +117,7 @@
   </ion-row>
 
    <!-- slides do jordania -->
-   <ion-row>
+   <ion-row *ngIf="this.item_selecionado == 'jordania'">
     <ion-col size="4">
      <ion-card>
        <img src="https://images.pexels.com/photos/12646819/pexels-photo-12646819.jpeg?auto=compress&cs=tinysrgb&w=1600">
@@ -136,7 +136,7 @@
   </ion-row>
 
    <!-- slides do peru -->
-   <ion-row>
+   <ion-row *ngIf="this.item_selecionado == 'peru'">
     <ion-col size="4">
      <ion-card>
        <img src="https://images.pexels.com/photos/3727260/pexels-photo-3727260.jpeg?auto=compress&cs=tinysrgb&w=1600">
