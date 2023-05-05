@@ -1,7 +1,8 @@
-ion-card {
-   height: 70%;
+.plano-fundo {
+  background-image: url(https://images.pexels.com/photos/63613/dirt-bike-motorcycle-jump-autumn-63613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-img {
-  width: 100%;
+ion-card,img {
   height: 100%;
 }
