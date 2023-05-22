@@ -12,27 +12,27 @@
     <ion-col size="12">
 
       <ion-segment value="brasil" (ionChange)="selecionarCard($event)">
-        <ion-segment-button value="brasil">
-          <ion-label>Brasil</ion-label>
+        <ion-segment-button value="Mdf">
+          <ion-label>modificados</ion-label>
         </ion-segment-button>
-        <ion-segment-button value="china">
-          <ion-label>China</ion-label>
-        </ion-segment-button>
-
-        <ion-segment-button value="india">
-          <ion-label>India</ion-label>
+        <ion-segment-button value="Urg">
+          <ion-label>Originais</ion-label>
         </ion-segment-button>
 
-        <ion-segment-button value="mexico">
-          <ion-label>México</ion-label>
+        <ion-segment-button value="Vl">
+          <ion-label>Velhos</ion-label>
         </ion-segment-button>
 
-        <ion-segment-button value="jordânia">
-          <ion-label>jordânia</ion-label>
+        <ion-segment-button value="Ps">
+          <ion-label>Peças</ion-label>
         </ion-segment-button>
 
-        <ion-segment-button value="peru">
-          <ion-label>Peru</ion-label>
+        <ion-segment-button value="PNS">
+          <ion-label>Pneus</ion-label>
+        </ion-segment-button>
+
+        <ion-segment-button value="RlQ">
+          <ion-label>Relíquia de Peças</ion-label>
         </ion-segment-button>
       </ion-segment>
 
@@ -40,119 +40,99 @@
     </ion-col>
   </ion-row>
 
-  <!-- slides do vendas -->
-  <ion-row *ngIf="this.item_selecionado == 'brasil'">
+  <!-- slides do modificado -->
+  <ion-row *ngIf="this.item_selecionado == 'Mdf'">
     <ion-col size="4">
      <ion-card>
-       <img src="https://images.pexels.com/photos/2868240/pexels-photo-2868240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+       <img src="">
      </ion-card>
     </ion-col>
     <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/1804177/pexels-photo-1804177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
      <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/13924858/pexels-photo-13924858.jpeg?auto=compress&cs=tinysrgb&w=1600">
+        <img src="">
       </ion-card>
      </ion-col>
   </ion-row>
 
-   <!-- slides do vendas -->
-   <ion-row *ngIf="this.item_selecionado == 'china'">
+   <!-- slides do Originais -->
+   <ion-row *ngIf="this.item_selecionado == 'Urg'">
     <ion-col size="4">
      <ion-card>
-       <img src="https://images.pexels.com/photos/2412603/pexels-photo-2412603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+       <img src="">
      </ion-card>
     </ion-col>
     <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/7902329/pexels-photo-7902329.jpeg?auto=compress&cs=tinysrgb&w=1600">
+        <img src="">
       </ion-card>
      </ion-col>
      <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/10363509/pexels-photo-10363509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
   </ion-row>
 
-   <!-- slides do vendas -->
-   <ion-row *ngIf="this.item_selecionado == 'india'">
+   <!-- slides do Velhos -->
+   <ion-row *ngIf="this.item_selecionado == 'Vl'">
     <ion-col size="4">
      <ion-card>
-       <img src="https://images.pexels.com/photos/2413613/pexels-photo-2413613.jpeg?auto=compress&cs=tinysrgb&w=1600">
+       <img src="">
      </ion-card>
     </ion-col>
     <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/2387871/pexels-photo-2387871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
      <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/5458393/pexels-photo-5458393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
   </ion-row>
 
-   <!-- slides do vendas -->
-   <ion-row *ngIf="this.item_selecionado == 'mexico'">
+   <!-- slides do pneus -->
+   <ion-row *ngIf="this.item_selecionado == 'PNS'">
     <ion-col size="4">
      <ion-card>
-       <img src="https://images.pexels.com/photos/3290068/pexels-photo-3290068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+       <img src="">
      </ion-card>
     </ion-col>
     <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/12319774/pexels-photo-12319774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
      <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/10967812/pexels-photo-10967812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
   </ion-row>
 
-   <!-- slides do vendas -->
-   <ion-row *ngIf="this.item_selecionado == 'jordania'">
+   <!-- slides do Relíquias -->
+   <ion-row *ngIf="this.item_selecionado == 'RlQ'">
     <ion-col size="4">
      <ion-card>
-       <img src="https://images.pexels.com/photos/12646819/pexels-photo-12646819.jpeg?auto=compress&cs=tinysrgb&w=1600">
+       <img src="">
      </ion-card>
     </ion-col>
     <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/3258239/pexels-photo-3258239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
      <ion-col size="4">
       <ion-card>
-        <img src="https://images.pexels.com/photos/11771083/pexels-photo-11771083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="">
       </ion-card>
      </ion-col>
   </ion-row>
-
-   <!-- slides do vendas -->
-   <ion-row *ngIf="this.item_selecionado == 'peru'">
-    <ion-col size="4">
-     <ion-card>
-       <img src="https://images.pexels.com/photos/3727260/pexels-photo-3727260.jpeg?auto=compress&cs=tinysrgb&w=1600">
-     </ion-card>
-    </ion-col>
-    <ion-col size="4">
-      <ion-card>
-        <img src="https://images.pexels.com/photos/3879058/pexels-photo-3879058.jpeg?auto=compress&cs=tinysrgb&w=1600">
-      </ion-card>
-     </ion-col>
-     <ion-col size="4">
-      <ion-card>
-        <img src="https://images.pexels.com/photos/13080580/pexels-photo-13080580.jpeg?auto=compress&cs=tinysrgb&w=1600">
-      </ion-card>
-     </ion-col>
-  </ion-row>
-
 
 </ion-content>
