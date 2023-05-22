@@ -1,7 +1,6 @@
 ion-title {
   --color: #000000;
 }
-
 ion-row{
   height: 70%;
 }
@@ -11,4 +10,13 @@ ion-card{
 img{
   max-width:100%;
 	height:auto;
+}
+ion-menu::part(backdrop) {
+  background-color: rgba(0, 60, 255, 0.5);
+}
+
+ion-menu::part(container) {
+  border-radius: 0 20px 20px 0;
+
+  box-shadow: 4px 0px 16px rgba(0, 60, 255, 0.5);
 }
