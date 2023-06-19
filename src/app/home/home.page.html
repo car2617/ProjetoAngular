@@ -7,40 +7,114 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  
-  <ion-row >
-    <ion-col size="3">
 
-      <ion-card>
-        <ion-row>
-          <ion-col>
-            <ion-textarea label="calculadora" labelPlacement="floating" fill="outline" placeholder="calculadora"></ion-textarea>
-          </ion-col>
-        </ion-row>
-        
+  <ion-row class="ion-justify-content-center">
+    <ion-col size="12" size-lg="3">
+
+      <ion-card shape="round" color="dark">
         <ion-row>
           <ion-col >
-            <ion-button (click)="exibir(1)"> 1 </ion-button>
+              <ion-input>
+                <ion-label class="numero">
+                  {{ this.resultado }}
+                </ion-label>
+              </ion-input>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="3">
+            <ion-button color="warning" shape="round" (click)="apagar()" expand="full"> C </ion-button>
           </ion-col>
 
           <ion-col>
-            <ion-button (click)="exibir(2)"> 2 </ion-button>
+            <ion-button color="warning" shape="round" (click)="lixo()" expand="full"> AC </ion-button>
           </ion-col>
 
           <ion-col>
-            <ion-button (click)="exibir(3)"> 3 </ion-button>
+            <ion-button  color="warning" shape="round" (click)="exibir(3)" expand="full">
+              <ion-icon name="backspace-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button  color="warning" shape="round" (click)="operador('/')" expand="full"> / </ion-button>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="3">
+            <ion-button color="medium" (click)="exibir(7)" expand="full"> 7 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="medium" (click)="exibir(8)" expand="full"> 8 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="medium" (click)="exibir(9)" expand="full"> 9 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button  color="warning" shape="round" (click)="operador('*')" expand="full"> * </ion-button>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="3">
+            <ion-button color="medium" (click)="exibir(4)" expand="full"> 4 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="medium" (click)="exibir(5)" expand="full"> 5 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button  color="medium" (click)="exibir(6)" expand="full"> 6 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="warning" shape="round" (click)="operador('-')" expand="full"> - </ion-button>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="3">
+            <ion-button color="medium" (click)="exibir(1)" expand="full"> 1 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="medium" (click)="exibir(2)" expand="full"> 2 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="medium" (click)="exibir(3)" expand="full"> 3 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button color="warning" shape="round" (click)="operador('+')" expand="full"> + </ion-button>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="3">
+            <ion-button color="medium" (click)="exibir(0)" expand="full"> 0 </ion-button>
+          </ion-col>
+
+          <ion-col>
+            <ion-button  color="medium"shape="round" (click)="calcular()" expand="full"> = </ion-button>
           </ion-col>
         </ion-row>
       </ion-card>
-      
+
     </ion-col>
   </ion-row>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 
 
 
