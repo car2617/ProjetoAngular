@@ -1,63 +1,73 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Super Mario</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-row>
+  <ion-row class="ion-justify-content-center">
     <ion-col size="12">
       <ion-card>
-        <img alt="Silhouette of mountains" src="https://imgix.bustle.com/uploads/image/2023/3/17/d1d73da0-e6f1-43e8-a93d-79d1d2691b34-mario-top-image-2023.jpg?w=360&h=240&fit=crop&crop=faces&auto=format%2Ccompress" />
+        <div class="img">
+          <ion-icon  routerLink="/home" name="chevron-back-outline"></ion-icon>
+          <ion-icon  routerLink="/luigi" name="chevron-forward-outline"></ion-icon>
+        </div>
+
         <ion-card-header>
-          <ion-card-title>Nitendo</ion-card-title>
-          <ion-card-subtitle>Super Mario</ion-card-subtitle>
+          <ion-card-subtitle>Nitendo</ion-card-subtitle>
+          <ion-card-title>Super Mario</ion-card-title>
         </ion-card-header>
 
         <ion-card-content>
-          A série de jogos Super Mario é uma das franquias mais populares e influentes da indústria de videogames. Ela
-          foi criada por Shigeru Miyamoto e desenvolvida pela Nintendo. Aqui está um resumo da história de Super Mario:
 
-          Origens:
-          Super Mario teve seu início em 1981, com o lançamento do jogo "Donkey Kong", onde o personagem principal,
-          então chamado de Jumpman, precisava resgatar a Princesa Peach das garras do gorila Donkey Kong. O jogo foi um
-          grande sucesso e estabeleceu as bases para o futuro do personagem.
-
-          Super Mario Bros.:
-          O jogo que realmente catapultou Mario para a fama foi "Super Mario Bros.", lançado em 1985 para o console
-          Nintendo Entertainment System (NES). Nele, os jogadores controlavam Mario ou seu irmão Luigi em uma jornada
-          para resgatar a Princesa Peach, que havia sido sequestrada pelo vilão Bowser. O jogo foi revolucionário,
-          apresentando fases de plataforma em side-scrolling e se tornou um enorme sucesso mundial.
-
-          Expansão da franquia:
-          A partir de "Super Mario Bros.", a franquia Super Mario se expandiu para diversos outros jogos e gêneros.
-          Foram lançados jogos como "Super Mario Bros. 2", "Super Mario Bros. 3" e "Super Mario World", que aprimoraram
-          a jogabilidade e introduziram novos elementos, como power-ups e fases temáticas.
-
-          Super Mario 64 e a era 3D:
-          Em 1996, "Super Mario 64" foi lançado para o console Nintendo 64, marcando a transição de Mario para o mundo
-          dos jogos em 3D. O jogo apresentava um mundo aberto em que os jogadores podiam explorar livremente e coletar
-          estrelas para progredir. Foi um marco na indústria dos videogames e estabeleceu as bases para jogos futuros em
-          3D.
-
-          Outros jogos e spin-offs:
-          Ao longo dos anos, a franquia Super Mario continuou a crescer com uma variedade de jogos e spin-offs. Houve
-          jogos de corrida, como a série "Mario Kart", jogos de RPG, como "Super Mario RPG" e "Paper Mario", e até mesmo
-          jogos de esportes, como a série "Mario Tennis" e "Mario Golf". Mario também fez aparições em outros jogos,
-          como "Super Smash Bros.", onde personagens da Nintendo se enfrentam em combates.
-
-          Histórias e enredos adicionais:
-          Embora a premissa básica dos jogos de Super Mario envolva resgatar a Princesa Peach das garras de Bowser, ao
-          longo dos anos, foram adicionadas histórias mais elaboradas. Os jogos exploram temas como viagens no tempo,
-          dimensões alternativas e o resgate de outros personagens, como Luigi e Yoshi.
-
-          A influência duradoura de Super Mario:
-          Super Mario se tornou um ícone da cultura pop e um dos personagens mais reconhecidos e amados dos videogames.
-          A franquia teve um impacto significativo na indústria de jogos, ajudando a popularizar o gênero de plataforma
-          e introduzindo inovações que ainda são usadas hoje.
-
-          Essa é apenas uma visão geral da história de Super Mario. A franquia continua a evoluir e novos jogos são
-          lançados regularmente, mantendo a magia e o encanto que tornaram Mario uma lenda dos videogames.
+          <ion-text color="medium">
+            <h3>
+              A série de jogos Super Mario é uma das franquias mais populares e influentes da indústria de videogames. Ela
+              foi criada por Shigeru Miyamoto e desenvolvida pela Nintendo. Aqui está um resumo da história de Super
+              Mario:
+  
+              Origens:
+              Super Mario teve seu início em 1981, com o lançamento do jogo "Donkey Kong", onde o personagem principal,
+              então chamado de Jumpman, precisava resgatar a Princesa Peach das garras do gorila Donkey Kong. O jogo foi
+              um
+              grande sucesso e estabeleceu as bases para o futuro do personagem.
+  
+              Super Mario Bros.:
+              O jogo que realmente catapultou Mario para a fama foi "Super Mario Bros.", lançado em 1985 para o console
+              Nintendo Entertainment System (NES). Nele, os jogadores controlavam Mario ou seu irmão Luigi em uma jornada
+              para resgatar a Princesa Peach, que havia sido sequestrada pelo vilão Bowser. O jogo foi revolucionário,
+              apresentando fases de plataforma em side-scrolling e se tornou um enorme sucesso mundial.
+  
+              Expansão da franquia:
+              A partir de "Super Mario Bros.", a franquia Super Mario se expandiu para diversos outros jogos e gêneros.
+              Foram lançados jogos como "Super Mario Bros. 2", "Super Mario Bros. 3" e "Super Mario World", que
+              aprimoraram
+              a jogabilidade e introduziram novos elementos, como power-ups e fases temáticas.
+  
+              Super Mario 64 e a era 3D:
+              Em 1996, "Super Mario 64" foi lançado para o console Nintendo 64, marcando a transição de Mario para o mundo
+              dos jogos em 3D. O jogo apresentava um mundo aberto em que os jogadores podiam explorar livremente e coletar
+              estrelas para progredir. Foi um marco na indústria dos videogames e estabeleceu as bases para jogos futuros
+              em
+              3D.
+  
+              Outros jogos e spin-offs:
+              Ao longo dos anos, a franquia Super Mario continuou a crescer com uma variedade de jogos e spin-offs. Houve
+              jogos de corrida, como a série "Mario Kart", jogos de RPG, como "Super Mario RPG" e "Paper Mario", e até
+              mesmo
+              jogos de esportes, como a série "Mario Tennis" e "Mario Golf". Mario também fez aparições em outros jogos,
+              como "Super Smash Bros.", onde personagens da Nintendo se enfrentam em combates.
+  
+              Histórias e enredos adicionais:
+              Embora a premissa básica dos jogos de Super Mario envolva resgatar a Princesa Peach das garras de Bowser, ao
+              longo dos anos, foram adicionadas histórias mais elaboradas. Os jogos exploram temas como viagens no tempo,
+              dimensões alternativas e o resgate de outros personagens, como Luigi e Yoshi.
+  
+              A influência duradoura de Super Mario:
+              Super Mario se tornou um ícone da cultura pop e um dos personagens mais reconhecidos e amados dos
+              videogames.
+              A franquia teve um impacto significativo na indústria de jogos, ajudando a popularizar o gênero de
+              plataforma
+              e introduzindo inovações que ainda são usadas hoje.
+  
+              Essa é apenas uma visão geral da história de Super Mario. A franquia continua a evoluir e novos jogos são
+              lançados regularmente, mantendo a magia e o encanto que tornaram Mario uma lenda dos videogames.
+            </h3>
+          </ion-text>
         </ion-card-content>
       </ion-card>
     </ion-col>

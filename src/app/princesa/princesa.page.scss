@@ -1,0 +1,18 @@
+.img {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://static.gamevicio.com/imagens_up/big/93/nintendo-esta-desenvolvendo-um-jogo-exclusivo-da-princesa-peach-para-o-nintendo-switch-092041.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  ion-content{
+    --background: rgb(255,0,228);
+    --background: linear-gradient(90deg, rgba(255,0,228,1) 29%, rgba(0,255,149,1) 70%);
+  }
+  h3{
+      font-size: 1.2rem;
+  }
+  ion-text{
+      padding: 12px;
+  }

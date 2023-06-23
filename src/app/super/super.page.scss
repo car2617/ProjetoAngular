@@ -1,0 +1,18 @@
+.img {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://imgix.bustle.com/uploads/image/2023/3/17/d1d73da0-e6f1-43e8-a93d-79d1d2691b34-mario-top-image-2023.jpg?w=360&h=240&fit=crop&crop=faces&auto=format%2Ccompress);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ion-content{
+    --background: rgb(0,69,255);
+    --background: linear-gradient(90deg, rgba(0,69,255,1) 30%, rgba(255,55,0,1) 63%);
+}
+h3{
+    font-size: 1.2rem;
+}
+ion-text{
+    padding: 12px;
+}
