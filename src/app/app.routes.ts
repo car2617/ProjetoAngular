@@ -18,4 +18,12 @@ export const routes: Routes = [
     path: 'fotos',
     loadComponent: () => import('./fotos/fotos.page').then( m => m.FotosPage)
   },
+  {
+    path: 'detalhes',
+    loadComponent: () => import('./detalhes/detalhes.page').then( m => m.DetalhesPage)
+  },
+  {
+    path: 'fusca1',
+    loadComponent: () => import('./fusca1/fusca1.page').then( m => m.Fusca1Page)
+  },
 ];
