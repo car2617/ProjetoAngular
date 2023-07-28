@@ -26,4 +26,12 @@ export const routes: Routes = [
     path: 'fusca1',
     loadComponent: () => import('./fusca1/fusca1.page').then( m => m.Fusca1Page)
   },
+  {
+    path: 'fusca2',
+    loadComponent: () => import('./fusca2/fusca2.page').then( m => m.Fusca2Page)
+  },
+  {
+    path: 'fusca3',
+    loadComponent: () => import('./fusca3/fusca3.page').then( m => m.Fusca3Page)
+  },
 ];
