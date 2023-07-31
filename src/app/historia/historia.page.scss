@@ -76,3 +76,57 @@
     color: rgb(255, 216, 216);
   }
 
+  
+/* Assuming this is your component's CSS file */
+.grupo-login {
+  /* Center the login card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; /* Set a dark background color */
+}
+
+ion-card {
+  /* Add some padding and styling to the card */
+  padding: 20px;
+  background-color: #1a1a1a; /* Use a slightly lighter background color */
+  border: none; /* Remove the card border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+ion-item {
+  /* Adjust spacing between items */
+  margin-bottom: 15px;
+}
+
+ion-input {
+  /* Style the input field */
+  background-color: #292929; /* Set a darker input background color */
+  color: #ffffff; /* Set the text color to white */
+  border: 1px solid #555; /* Add a border to the input */
+  border-radius: 5px; /* Round the corners of the input */
+  padding: 10px; /* Add some padding to the input */
+}
+
+ion-button {
+  /* Customize the button color and size */
+  --color: #ffffff; /* Set the button text color to white */
+  --background: #00bfff; /* Use a bright blue background color */
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px; /* Make the button more rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.mensagem {
+  /* Style the error message */
+  text-align: center;
+  color: #ff4d4d; /* Use a bright red for the error message color */
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+}
+

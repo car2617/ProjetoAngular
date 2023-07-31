@@ -34,4 +34,32 @@ export const routes: Routes = [
     path: 'fusca3',
     loadComponent: () => import('./fusca3/fusca3.page').then( m => m.Fusca3Page)
   },
+  {
+    path: 'fusca4',
+    loadComponent: () => import('./fusca4/fusca4.page').then( m => m.Fusca4Page)
+  },
+  {
+    path: 'fusca5',
+    loadComponent: () => import('./fusca5/fusca5.page').then( m => m.Fusca5Page)
+  },
+  {
+    path: 'fusca6',
+    loadComponent: () => import('./fusca6/fusca6.page').then( m => m.Fusca6Page)
+  },
+  {
+    path: 'fusca7',
+    loadComponent: () => import('./fusca7/fusca7.page').then( m => m.Fusca7Page)
+  },
+  {
+    path: 'fusca6',
+    loadComponent: () => import('./fusca6/fusca6.page').then( m => m.Fusca6Page)
+  },
+  {
+    path: 'fusca8',
+    loadComponent: () => import('./fusca8/fusca8.page').then( m => m.Fusca8Page)
+  },
+  {
+    path: 'fusca9',
+    loadComponent: () => import('./fusca9/fusca9.page').then( m => m.Fusca9Page)
+  },
 ];
