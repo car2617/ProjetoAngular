@@ -6,3 +6,8 @@ img{
   ion-card {
     height: 100%;
   }
+
+  ion-card :hover {
+    transform: scale(1.05);
+  }
+

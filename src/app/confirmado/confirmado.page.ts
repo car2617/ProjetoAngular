@@ -2,16 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-fusca4',
-  templateUrl: './fusca4.page.html',
-  styleUrls: ['./fusca4.page.scss'],
+  selector: 'app-confirmado',
+  templateUrl: './confirmado.page.html',
+  styleUrls: ['./confirmado.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule,RouterLink]
+  imports: [IonicModule, CommonModule, FormsModule]
 })
-export class Fusca4Page implements OnInit {
+export class ConfirmadoPage implements OnInit {
 
   constructor() { }
 

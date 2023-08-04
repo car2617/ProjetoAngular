@@ -62,4 +62,8 @@ export const routes: Routes = [
     path: 'fusca9',
     loadComponent: () => import('./fusca9/fusca9.page').then( m => m.Fusca9Page)
   },
+  {
+    path: 'confirmado',
+    loadComponent: () => import('./confirmado/confirmado.page').then( m => m.ConfirmadoPage)
+  },
 ];
