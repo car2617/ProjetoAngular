@@ -14,6 +14,7 @@
    flex-direction: row;
    align-items: center;
    justify-content: center;
+   color: #fff;
  }
 
  ion-card-header ion-button {
@@ -36,57 +37,56 @@
  h3 {
    font-size: 16px;
    line-height: 1.4;
-   color: #333;
+   color: #ffffff;
  }
 
  ion-row ion-col {
    padding: 5px;
  }
 
- /* No seu arquivo de estilos (styles.scss) */
-
-/* Estilos gerais para o conteúdo */
 ion-content {
-  --ion-background-color: #181818; /* Cor de fundo escura */
-  color: #fff; /* Cor do texto */
+  --ion-background-color: #ffffff; 
+  color: #fff; 
 }
 
-/* Estilos para os cards */
+
 ion-card {
-  background-color: #222; /* Cor de fundo dos cards */
-  border-radius: 15px; /* Cantos arredondados */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+  background-color: #7e7c7c; 
+  border-radius: 15px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
-/* Estilos para o texto */
+
 ion-text {
-  font-size: 16px; /* Tamanho da fonte */
-  line-height: 1.5; /* Espaçamento entre linhas */
+  font-size: 16px; 
+  line-height: 1.5; 
 }
 
-/* Estilos para os botões */
+
 ion-button {
-  --background: #ff6b6b; /* Cor de fundo do botão */
-  --border-radius: 8px; /* Cantos arredondados do botão */
-  color: #fff; /* Cor do texto do botão */
-  text-transform: uppercase; /* Texto em maiúsculas */
-  font-weight: bold; /* Texto em negrito */
-  margin-right: 10px; /* Espaçamento entre os botões */
+  --color: #ffffff;
+  --background: linear-gradient(to right, #00bfff, #00ffd5);
+  text-transform: uppercase;
+  font-weight: bold; 
+  margin-right: 10px; 
 }
 
-/* Estilos para o datetime-picker */
+
 ion-datetime {
-  --placeholder-color: #888; /* Cor do texto de placeholder */
-  --color: #fff; /* Cor do texto selecionado */
+  --placeholder-color: #888; 
+  --color: #fff;
 }
 
-/* Estilos para a row com as duas imagens */
+
 ion-row {
-  margin-top: 20px; /* Espaçamento entre os cards e a row */
+  margin-top: 20px; 
 }
 
 ion-col {
-  padding: 0 10px; /* Espaçamento interno dos cols */
+  padding: 0 10px; 
 }
 
-/* Estilize o restante dos elementos conforme necessário */
+ion-card img:hover {
+  transform: scale(1.05);
+}
+
