@@ -66,4 +66,12 @@ export const routes: Routes = [
     path: 'confirmado',
     loadComponent: () => import('./confirmado/confirmado.page').then( m => m.ConfirmadoPage)
   },
+  {
+    path: 'login',
+    loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
+  },
+  {
+    path: 'registro',
+    loadComponent: () => import('./registro/registro.page').then( m => m.RegistroPage)
+  },
 ];
